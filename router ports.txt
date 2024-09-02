@@ -1,0 +1,15 @@
+# internal:
+22 # filtered ssh
+80 # control panel
+443 # control panel (https)
+53 # dns (cloudflare????)
+7223 # ????? (http, returns empty response, 400, 404 or 200 if using options method)
+55662 # ????
+64877 # miniupnp
+55661 # ????? (has BT WHW ssl cert)
+
+# external:
+8085 # ???? (http, 404)
+55662 # ???? 
+55661 # ???? (has BT WHW ssl cert)
+7223 # ???? (tcpwrapped)
